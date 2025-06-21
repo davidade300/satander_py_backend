@@ -6,6 +6,7 @@ class ControleRemoto(ABC):
     as classes que estendem uma ABC devem implementar todos os seus metodos
     (basicamente uma interface do java)
 
+    para metodos serem considerados abstratos eles devem ser decorados como @abstractmethod
     Args:
         ABC (_type_): _description_
     """
